@@ -9,11 +9,13 @@ import java.awt.event.KeyEvent;
  */
 public final class Settings {
 	
+	public static final boolean DEBUG = true;
+	
 	/**
 	 * Aim assist settings
 	 */
 	public static final float AIM_ASSIST_STRENGTH = 30f;
-	public static final int AIM_ASSIST_FOV = 190;
+	public static final int AIM_ASSIST_FOV = 180;
 	
 	/**
 	 * Force aim settings
